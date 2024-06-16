@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-6</title>
+</head>
+<body>
+    <div class="outer-box">
+    <div class="table">
+    <table>
+        <tr>
+            <td>Name:</td>
+                <td><input type="text" id="full-name" name="full-name" placeholder="your name"></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+                <td><input type="text" id="email" name="email" placeholder="your email"></td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+                <td> <input type="password" id="password" name="password" ></td>
+        </tr>
+        <tr>
+            <td>Phone Number:</td>
+                <td><input type="number" id="phone-number" name="phone-number" ></td>
+        </tr>
+        <tr>
+            <td>Gender:</td>
+                <td><div class="radio-group">
+                    <label>Male:<input type="radio" name="gender" value="male"></label>
+                    <label>Female:<input type="radio" name="gender" value="female"></label>
+                    <label>Other:<input type="radio" name="other" value="other"></label>
+                    </div>
+                </td>
+        </tr>
+        <tr>
+            <td>language:</td>
+                <td> <select id="language" name="country" required>
+                    <option value="" able selected>select your language</option>
+                    <option value="in">Telugu</option>
+                    <option value="sr">English</option>
+                    <option value="ba">Kannada</option>
+                    <option value="ne">Tamil</option>
+                </select></td>
+        </tr>
+        <tr>
+            <td>Zip Code:</td>
+                <td><input type="number" id="zip code" name="Zip Code" ></td>
+        </tr>
+        <tr>
+            <td>About:</td>
+                <td><textarea rows="3" col="8" placeholder="Write about yourself"></textarea></td>
+        </tr>
+    </table>
+        <button type="submit" style=" width: 300px; height: 30px;"> Register</button>
+</div>
+</div>
+</body>  
+</html>
+<style>
+    .table{
+       position:absolute;
+       left:20%;
+       top: 10%;
+       padding: 25px 30px;
+    }
+    .table{
+        background-color:  rgba(59, 10, 41, 0.861);
+        color:white;
+        width: 315px;
+        height: 300px;
+    }
+    .outer-box{
+            position:absolute;
+            left: 35%;
+            top: 20%;
+            width: 600px;
+            height: 450px;
+            border: 2px solid black;
+            display: flex; 
+            background-color: rgba(111, 22, 78, 0.861);
+            
+    }
+
+    
+</style>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>80</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="container">
+        <div class="item" id="o"></div>
+        <div class="item" id="t"></div>
+        <div class="item" id="th"></div>
+        <div class="item" id="f"></div>
+        <div class="item" id="fi"></div>
+        <div class="item" id="s"></div>
+        <div class="item" id="se"></div>
+        <div class="item" id="e"></div>
+        <div class="item" id="n"></div>
+      </div>
+</body>
+</html>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+
+.styled-table {
+    border-collapse: separate;
+    border-spacing: 10;
+    margin: 25px 10px;
+    font-size: 18px;
+    text-align: left;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 6px 15px;
+    background-color: rgb(156, 216, 240);
+}
+table, th, td {
+    border: 1px solid #000;
+    border-radius: 30px;
+    
+}
+
+.styled-table thead tr {
+    color: black;
+    text-align: center;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 4px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid aquamarine;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color:  rgb(156, 216, 240);
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid  rgb(156, 216, 240);
+}
+#o{
+            height: 25px;
+            width:40px;
+            border-radius: 4px;
+           
+        }
+
+        #t{
+            height: 25px;
+            width:40px;
+            border-radius: 6px;
+           
+        }
+        #th{
+            height: 22px;
+            width:40px;
+            border-radius: 12px;
+           
+        }
+        #f{
+            height: 25px;
+            width:40px;
+            border-radius: 7px;
+           
+        }
+        #fi{
+            height: 20px;
+            width:40px;
+
+            
+        }
+        #s{
+            height: 22px;
+            width:40px;
+            border-radius: 12px;
+            
+        }
+        #se{
+            height: 25px;
+            width:40px;
+            border-radius:70%;
+            
+        }
+        #e{
+            height: 25px;
+            width:40px;
+            border-radius: 3px;
+            
+        }
+        #n{
+            height: 22px;
+          width: 40px;
+          border-bottom-left-radius: 10px;
+          border-top-right-radius: 10px;
+        }
+        
+ .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 columns of equal width */
+            column-gap: 0px;
+            row-gap: 10px; 
+        }
+
+ .item {
+    padding: 5px;
+    background-color: white;
+    border: 1px solid rgb(30, 128, 30);
+  }
+</style>
